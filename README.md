@@ -81,7 +81,6 @@ GPFO/
 │
 ├── run.py
 ├── requirements.txt
-├── .gitignore
 └── README.md
 ```
  
