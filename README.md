@@ -8,11 +8,14 @@ O sistema permite importar dados de sessões de formação a partir de ficheiros
 
 O projeto encontra-se em desenvolvimento contínuo, com evolução progressiva da sua arquitetura e funcionalidades.
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
-![SQLite](https://img.shields.io/badge/Database-SQLite-green)
-![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel-success)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115%2B-009688.svg)](https://fastapi.tiangolo.com/)
-[![Swagger UI](https://img.shields.io/badge/Swagger%20UI-OpenAPI-85EA2D.svg)](https://swagger.io/tools/swagger-ui/)
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-Framework-009688.svg)
+![SQLite](https://img.shields.io/badge/Database-SQLite-003B57.svg)
+![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel-217346.svg)
+![Pydantic](https://img.shields.io/badge/Pydantic-Validation-E92063.svg)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-499848.svg)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-3.x-6BA539.svg)
+![Swagger UI](https://img.shields.io/badge/Swagger%20UI-Documentation-85EA2D.svg)
 
 
 ---
