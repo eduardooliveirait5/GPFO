@@ -11,8 +11,8 @@ O projeto encontra-se em desenvolvimento contínuo, com evolução progressiva d
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-green)
 ![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel-success)
-[![FastAPI](https://img.shields.io)](https://tiangolo.com)
-[![Swagger](https://img.shields.io)](https://swagger.io)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115%2B-009688.svg)](https://fastapi.tiangolo.com/)
+[![Swagger UI](https://img.shields.io/badge/Swagger%20UI-OpenAPI-85EA2D.svg)](https://swagger.io/tools/swagger-ui/)
 
 
 ---
