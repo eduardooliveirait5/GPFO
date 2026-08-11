@@ -37,9 +37,17 @@ A aplicação foi concebida para reduzir tarefas manuais relacionadas com:
 
 Desta forma, o sistema procura transformar dados brutos provenientes das sessões de formação em informação consolidada e estruturada, pronta para análise e utilização administrativa.
 
----
+## Tecnologias utilizadas
 
-# Arquitetura atual
+- Python
+- FastAPI
+- Uvicorn
+- SQLite
+- OpenPyXL
+- OpenAPI
+- Swagger UI
+
+## Arquitetura atual
 
 O projeto iniciou-se como uma aplicação monolítica como versão inicial para treinamento e apresentação do conceito, após a validação positiva me concentro na interface, regras de negócio, acesso à base de dados e processamento dos ficheiros num único programa.
 
