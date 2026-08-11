@@ -1,0 +1,175 @@
+2026-08-08 01:02:14,259 | INFO | Iniciando importação da formação TESTE05
+2026-08-08 01:06:25,850 | INFO | Iniciando importação da formação TESTE05
+2026-08-08 01:06:25,883 | ERROR | Erro durante a importação
+Traceback (most recent call last):
+  File "C:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 309, in importar_excel
+    logger.info(f"Sessão importada com sucesso. ID={sessao_id}")
+                                                    ^^^^^^^^^
+NameError: name 'sessao_id' is not defined. Did you mean: 'sessao'?
+2026-08-08 01:06:25,891 | INFO | Arquivo temporário removido
+2026-08-08 01:09:15,656 | INFO | Iniciando importação da formação TESTE05
+2026-08-08 01:09:15,675 | ERROR | Erro durante a importação
+Traceback (most recent call last):
+  File "C:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 303, in importar_excel
+    sessao = importar_sessao(
+        temp.name,
+    ...<2 lines>...
+        hora_fim
+    )
+  File "C:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 211, in importar_sessao
+    raise ValueError(
+        f"Sessão '{meta['titulo']}' de {meta['data']} já importada nesta formação."
+    )
+ValueError: Sessão 'EF_218_CAM_FIAC (n.º 5821) -' de 2024-01-25 já importada nesta formação.
+2026-08-08 01:09:15,677 | INFO | Arquivo temporário removido
+2026-08-08 01:09:31,582 | INFO | Iniciando importação da formação TESTE06
+2026-08-08 01:09:31,599 | INFO | Sessão importada com sucesso. ID=10
+2026-08-08 01:09:31,601 | INFO | Nome da formação atualizado para 'TESTE06'
+2026-08-08 01:09:31,601 | INFO | Arquivo temporário removido
+2026-08-11 12:12:45,850 | INFO | Iniciando importação da formação VALID001
+2026-08-11 12:12:45,871 | ERROR | Erro durante a importação
+Traceback (most recent call last):
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 303, in importar_excel
+    sessao = importar_sessao(
+        temp.name,
+    ...<2 lines>...
+        hora_fim
+    )
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 168, in importar_sessao
+    meta, participantes = ler_teams_excel(
+                          ~~~~~~~~~~~~~~~^
+        caminho,
+        ^^^^^^^^
+        hora_inicio,
+        ^^^^^^^^^^^^
+        hora_fim
+        ^^^^^^^^
+    )
+    ^
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 112, in ler_teams_excel
+    raise ValueError("Tabela de participantes não encontrada no ficheiro.")
+ValueError: Tabela de participantes não encontrada no ficheiro.
+2026-08-11 12:12:49,578 | INFO | Iniciando importação da formação VALID001
+2026-08-11 12:12:49,591 | ERROR | Erro durante a importação
+Traceback (most recent call last):
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 303, in importar_excel
+    sessao = importar_sessao(
+        temp.name,
+    ...<2 lines>...
+        hora_fim
+    )
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 168, in importar_sessao
+    meta, participantes = ler_teams_excel(
+                          ~~~~~~~~~~~~~~~^
+        caminho,
+        ^^^^^^^^
+        hora_inicio,
+        ^^^^^^^^^^^^
+        hora_fim
+        ^^^^^^^^
+    )
+    ^
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 112, in ler_teams_excel
+    raise ValueError("Tabela de participantes não encontrada no ficheiro.")
+ValueError: Tabela de participantes não encontrada no ficheiro.
+2026-08-11 12:22:09,219 | INFO | Iniciando importação da formação TEST01
+2026-08-11 12:22:09,234 | ERROR | Erro durante a importação
+Traceback (most recent call last):
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 303, in importar_excel
+    sessao = importar_sessao(
+        temp.name,
+    ...<2 lines>...
+        hora_fim
+    )
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 168, in importar_sessao
+    meta, participantes = ler_teams_excel(
+                          ~~~~~~~~~~~~~~~^
+        caminho,
+        ^^^^^^^^
+        hora_inicio,
+        ^^^^^^^^^^^^
+        hora_fim
+        ^^^^^^^^
+    )
+    ^
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 112, in ler_teams_excel
+    raise ValueError("Tabela de participantes não encontrada no ficheiro.")
+ValueError: Tabela de participantes não encontrada no ficheiro.
+2026-08-11 12:27:46,184 | INFO | Iniciando importação da formação TEST005
+2026-08-11 12:27:46,199 | ERROR | Erro durante a importação
+Traceback (most recent call last):
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 303, in importar_excel
+    sessao = importar_sessao(
+        temp.name,
+    ...<2 lines>...
+        hora_fim
+    )
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 168, in importar_sessao
+    meta, participantes = ler_teams_excel(
+                          ~~~~~~~~~~~~~~~^
+        caminho,
+        ^^^^^^^^
+        hora_inicio,
+        ^^^^^^^^^^^^
+        hora_fim
+        ^^^^^^^^
+    )
+    ^
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 112, in ler_teams_excel
+    raise ValueError("Tabela de participantes não encontrada no ficheiro.")
+ValueError: Tabela de participantes não encontrada no ficheiro.
+2026-08-11 12:29:30,943 | INFO | Iniciando importação da formação TEST006
+2026-08-11 12:29:30,971 | INFO | Sessão importada com sucesso. ID=1
+2026-08-11 12:29:30,972 | INFO | Nome da formação atualizado para 'TEST006'
+2026-08-11 12:29:30,972 | INFO | Arquivo temporário removido
+2026-08-11 12:45:03,542 | INFO | Iniciando importação da formação TESTE008
+2026-08-11 12:45:03,564 | INFO | Sessão importada com sucesso. ID=2
+2026-08-11 12:45:03,565 | INFO | Nome da formação atualizado para 'TESTE008'
+2026-08-11 12:45:03,568 | INFO | Arquivo temporário removido
+2026-08-11 12:48:38,146 | INFO | Iniciando importação da formação TESTE007
+2026-08-11 12:48:38,172 | INFO | Sessão importada com sucesso. ID=3
+2026-08-11 12:48:38,173 | INFO | Nome da formação atualizado para 'TESTE007'
+2026-08-11 12:48:38,173 | INFO | Arquivo temporário removido
+2026-08-11 12:49:30,143 | INFO | Iniciando importação da formação TESTE009
+2026-08-11 12:49:30,162 | INFO | Sessão importada com sucesso. ID=4
+2026-08-11 12:49:30,163 | INFO | Nome da formação atualizado para 'TESTE009'
+2026-08-11 12:49:30,163 | INFO | Arquivo temporário removido
+2026-08-11 12:49:45,730 | INFO | Iniciando importação da formação TESTE010
+2026-08-11 12:49:45,751 | INFO | Sessão importada com sucesso. ID=5
+2026-08-11 12:49:45,752 | INFO | Nome da formação atualizado para 'TESTE010'
+2026-08-11 12:49:45,752 | INFO | Arquivo temporário removido
+2026-08-11 12:53:47,165 | INFO | Iniciando importação da formação TESTE011
+2026-08-11 12:53:47,189 | INFO | Sessão importada com sucesso. ID=6
+2026-08-11 12:53:47,189 | INFO | Nome da formação atualizado para 'TESTE011'
+2026-08-11 12:53:47,190 | INFO | Arquivo temporário removido
+2026-08-11 12:55:47,516 | INFO | Iniciando importação da formação TESTE011
+2026-08-11 12:55:47,532 | ERROR | Erro durante a importação
+Traceback (most recent call last):
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 303, in importar_excel
+    sessao = importar_sessao(
+        temp.name,
+    ...<2 lines>...
+        hora_fim
+    )
+  File "c:\Users\KADZ\Kadz_Proj\GPFO\app\services\teams.py", line 211, in importar_sessao
+    raise ValueError(
+        f"Sessão '{meta['titulo']}' de {meta['data']} já importada nesta formação."
+    )
+ValueError: Sessão 'EF_208_ABC_TEST (n.º 5821) -' de 2024-01-20 já importada nesta formação.
+2026-08-11 12:55:47,533 | INFO | Arquivo temporário removido
+2026-08-11 12:56:50,780 | INFO | Iniciando importação da formação TESTE012
+2026-08-11 12:56:50,799 | INFO | Sessão importada com sucesso. ID=7
+2026-08-11 12:56:50,799 | INFO | Nome da formação atualizado para 'TESTE012'
+2026-08-11 12:56:50,800 | INFO | Arquivo temporário removido
+2026-08-11 12:57:41,912 | INFO | Iniciando importação da formação TESTE013
+2026-08-11 12:57:41,929 | INFO | Sessão importada com sucesso. ID=8
+2026-08-11 12:57:41,930 | INFO | Nome da formação atualizado para 'TESTE013'
+2026-08-11 12:57:41,931 | INFO | Arquivo temporário removido
+2026-08-11 13:00:50,698 | INFO | Iniciando importação da formação TESTE014
+2026-08-11 13:00:50,719 | INFO | Sessão importada com sucesso. ID=9
+2026-08-11 13:00:50,719 | INFO | Nome da formação atualizado para 'TESTE014'
+2026-08-11 13:00:50,720 | INFO | Arquivo temporário removido
+2026-08-11 13:01:54,313 | INFO | Iniciando importação da formação TESTE015
+2026-08-11 13:01:54,338 | INFO | Sessão importada com sucesso. ID=10
+2026-08-11 13:01:54,338 | INFO | Nome da formação atualizado para 'TESTE015'
+2026-08-11 13:01:54,339 | INFO | Arquivo temporário removido
