@@ -47,15 +47,14 @@ Desta forma, o sistema procura transformar dados brutos provenientes das sessõe
 - OpenAPI
 - Swagger UI
 
-## Arquitetura atual
+## Evolução da arquitetura
 
 O projeto iniciou-se como uma aplicação monolítica como versão inicial para treinamento e apresentação do conceito, após a validação positiva me concentro na interface, regras de negócio, acesso à base de dados e processamento dos ficheiros num único programa.
 
-Durante o desenvolvimento, essa estrutura foi migrada para uma arquitetura baseada em **FastAPI**, separando as principais responsabilidades da aplicação.
+Durante o desenvolvimento, essa estrutura foi migrada para uma arquitetura baseada em **FastAPI**, separando as principais responsabilidades da aplicação. A migração teve como objetivo manter a lógica funcional existente, mas proporcionar uma estrutura mais organizada, modular e preparada para futuras evoluções.
 
 A estrutura atual é organizada aproximadamente da seguinte forma:
 
-```text
 GPFO/
 │
 ├── app/
@@ -81,4 +80,9 @@ GPFO/
 │
 ├── run.py
 ├── requirements.txt
+├── .gitignore
 └── README.md
+
+## 📄 Autoria e Licença
+
+© 2026 Eduardo Oliveira. Este código é disponibilizado apenas para fins de estudo e demonstração de portfólio. É proibida a utilização comercial, redistribuição ou incorporação em outros projetos sem autorização expressa do autor.
