@@ -8,6 +8,11 @@ O sistema permite importar dados de sessões de formação a partir de ficheiros
 
 O projeto encontra-se em desenvolvimento contínuo, com evolução progressiva da sua arquitetura e funcionalidades.
 
+![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
+![SQLite](https://img.shields.io/badge/Database-SQLite-green)
+![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel-success)
+
+
 ---
 
 ## Objetivo
