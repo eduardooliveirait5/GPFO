@@ -12,7 +12,6 @@ O projeto encontra-se em desenvolvimento contínuo, com evolução progressiva d
 ![FastAPI](https://img.shields.io/badge/FastAPI-Framework-009688.svg)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57.svg)
 ![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel-217346.svg)
-![Pydantic](https://img.shields.io/badge/Pydantic-Validation-E92063.svg)
 ![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-499848.svg)
 ![OpenAPI](https://img.shields.io/badge/OpenAPI-3.x-6BA539.svg)
 ![Swagger UI](https://img.shields.io/badge/Swagger%20UI-Documentation-85EA2D.svg)
