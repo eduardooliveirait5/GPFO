@@ -55,6 +55,7 @@ Durante o desenvolvimento, essa estrutura foi migrada para uma arquitetura basea
 
 A estrutura atual é organizada aproximadamente da seguinte forma:
 
+```text 
 GPFO/
 │
 ├── app/
@@ -82,7 +83,8 @@ GPFO/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
+ 
 ## 📄 Autoria e Licença
 
 © 2026 Eduardo Oliveira. Este código é disponibilizado apenas para fins de estudo e demonstração de portfólio. É proibida a utilização comercial, redistribuição ou incorporação em outros projetos sem autorização expressa do autor.
